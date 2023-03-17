@@ -12,6 +12,7 @@ import BlockhouseDeals from "./components/BlockhouseDeals";
 import Deals from "./components/Deals";
 import Auction from "./components/Auction";
 import Bid from "./components/Bid";
+import CompletedAuction from "./components/CompletedAuction";
 import Structured from "./components/Structured";
 
 // CSS
@@ -29,6 +30,7 @@ function App() {
       {/* <Deals /> */}
       {/* <Auction /> */}
       {/* <Bid /> */}
+      {/* <CompletedAuction /> */}
       {/* <Structured /> */}
 
       <BrowserRouter>
@@ -47,6 +49,7 @@ function App() {
           <Route path="/Deals" element={<Deals />} />
           <Route path="/Auction" element={<Auction />} />
           <Route path="/Bid" element={<Bid />} />
+          <Route path="/CompletedAuction" element={<CompletedAuction />} />
           <Route path="/Structured" element={<Structured />} />
           <Route path="/BorrowPage" element={<BorrowPage />} />
           <Route path="/CommingSoon" element={<CommingSoon />} />
