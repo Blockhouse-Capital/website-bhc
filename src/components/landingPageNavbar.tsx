@@ -94,8 +94,18 @@ function AccessSection() {
                 sx={{ color: "white", height: "100%", width: "100%" }}
               />
             </Box>
-            <Link href="/CommingSoon" underline="none">
-              <NavItem style={{ color: "#659BEB" }}>Launch Exchange</NavItem>
+             <Link href="/CommingSoon" underline="none">
+              <NavItem
+                style={{
+                  color: "#659BEB",
+                  border: "1px solid rgba(101, 155, 235, 0.6)",
+                  padding: "10px 12px",
+                  borderRadius: "7px",
+                  marginLeft: "-12px",
+                }}
+              >
+                Launch Exchange
+              </NavItem>
             </Link>
           </NavItemContainer>
         </Navbar>
