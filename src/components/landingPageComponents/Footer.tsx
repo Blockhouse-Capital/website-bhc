@@ -13,11 +13,11 @@ function Footer() {
         <TwitterIcon />
         <LanguageIcon />
       </IconBox>
-      <CopyRightText>
+<!--       <CopyRightText>
         <span style={{ color: "rgba(255, 255, 255, 0.6)" }}>
           made by
         </span>{" "}
-        roobinium.io
+        roobinium.io -->
       </CopyRightText>
     </FooterContainer>
   );
