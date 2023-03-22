@@ -150,7 +150,7 @@ function BlackHouseProducts() {
           <AssetsHeading sx={{ width: "100%", mb: "64px" }} className="productsHeading">
             Why Use{" "}
             <Typography variant="span" color="#659BEB">
-              BlackHouse
+              BlockHouse
             </Typography>
             ?
           </AssetsHeading>
