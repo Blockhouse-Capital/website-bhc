@@ -1,6 +1,7 @@
 {
   "name": "block_house",
   "version": "0.1.0",
+  "private": true,
   "homepage": "http://haideryaqoob720.github.io/Blockhouse_React_Tsx_Mui_Bid",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
