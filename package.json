@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://haideryaqoob720.github.io/Blockhouse_React_Tsx_Mui_Bid",
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
+    "@material-ui/core": "^5.6.0",
     "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.9",
     "@testing-library/jest-dom": "^5.16.5",
