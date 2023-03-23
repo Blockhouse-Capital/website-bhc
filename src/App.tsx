@@ -32,7 +32,8 @@ function App() {
       {/* <Bid /> */}
       {/* <CompletedAuction /> */}
       {/* <Structured /> */}
-
+      
+      // eslint-disable-next-line
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
