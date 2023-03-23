@@ -1,21 +1,19 @@
-import * as React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import { Grid, Button } from "@mui/material";
+import { Grid } from "@mui/material";
 
 // component
-import { HomeHR } from "./landingPageComponents/CustomComponents";
-import DashboardHeder_Sidebar from "./liquidityComponent/dashboardHeder_Sidebar";
+// import { HomeHR } from "./landingPageComponents/CustomComponents";
+import DASHBOARDHEADER_SIDEBAR from "./liquidityComponent/dashboardHeder_Sidebar";
 import BidSecSection from "./bidComponents/BidSecSection";
 
 // Images
 // import liquidityTableLastRowDropdown from "../Images/liquidity/liquidityTableLastRowDropdown.png";
 import bidBlueCircle from "../Images/placeOrder/bidBlueCircle.png";
 import tethIcon from "../Images/liquidity/tetherToken.png";
-import bicoinIcon from "../Images/liquidity/bitcoinIcon.png";
 import placeOrderQuestion from "../Images/placeOrder/placeOrderQuestion.png";
 
 const mdTheme = createTheme();
@@ -26,7 +24,7 @@ function DashboardContent() {
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
 
-        <DashboardHeder_Sidebar />
+        <DASHBOARDHEADER_SIDEBAR />
 
         <Box
           component="main"
