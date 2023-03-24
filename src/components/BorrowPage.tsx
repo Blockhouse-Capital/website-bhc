@@ -68,6 +68,7 @@ function AccessSection() {
                     sx={{ width: "24px", height: "24px" }}
                   />
                 }
+                href="https://scjmudnx65y.typeform.com/to/pwhFRbw1"
               >
                 Apply Now
               </HeroBtn>
